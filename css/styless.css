@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 30px;
+    padding-top: 0;
+    display: block;
+    margin: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    border-top: solid #0475ba 5px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+form{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    border-style:none;
+    border-radius: 3px;
+}
+.bluebox{
+    background-color: #0475ba;
+    height: 12px;
+    width: 100%;
+    display: block;
+}
+.h3f{
+    font-size: 12;
+    font-family: "poppins";
+    text-align: center;
+    font-weight:900
+
+}
+#name, #email, #text{
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    margin-bottom: 00.2rem;
+    border-color: rgb(230, 228, 228);
+    border-style:solid;
+    color: white;
+    height: 35px;
+    font-family: "poppins" ;
+    font-size: 12px;
+}
+#font{
+    font-family: "poppins" ;
+    font-size: 12px;
+    font-weight:900
+}
+#textarea{
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    margin-bottom: 00.2rem;
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    color: white;
+    height: 100px;
+    font-family: "poppins" ;
+    font-size: 12px;
+}
+
+.submit{
+    background-color: #0475ba;
+    border-radius: 4px;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+    height: 35px;
+}
+
+body{
+    font-family: "poppins", "Poppins-Medium"  ;
+
+}
+@font-face {
+    font-family:"poppins","Poppins-Medium" ;
+    src: url(fonts/poppins.ttf);
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@media screen {
+    
+}
