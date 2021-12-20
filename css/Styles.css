@@ -44,8 +44,9 @@ header h2{
     margin:0 auto ;
 }
 img{
-border-radius: 50%;
-max-width: 150px;}
+    border-radius: 100%;
+    width: 150px;
+}
 .name-job{
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@ max-width: 150px;}
     align-items:center;
 }
 .name-job h1{
-margin-bottom:1rem;
+    margin-bottom:1rem;
 }
 .presentation{
     background-color: #0475ba;
@@ -83,9 +84,9 @@ margin-bottom:1rem;
 .Expériences h2{
     color: #0475ba;
     margin-bottom: 2rem;
-    }
+}
 
-@media screen and  (max-width:1000px){
+@media screen and (max-width:1000px){
     .section-exp{
         flex-direction: column-reverse;}
     }
@@ -93,20 +94,29 @@ margin-bottom:1rem;
         display: flex;
         justify-content: space-between;
     }
-.Formation{
-        background-color: #0475ba;
-        height: 15rem;
-        color:white;
-        align-items:center;
-        justify-content:center;
+@media screen and (max-width:414px){
+        .section-content{
+            flex-direction: column;}
+        img{
+            width: 60%;
+            margin-inline:inherit;
+            padding-top: 1rem;
         }
+        }
+.Formation{
+    background-color: #0475ba;
+    height: 15rem;
+    color:white;
+    align-items:center;
+    justify-content:center;
+}
 .Formation h2{
-        margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .Formation li{
-        list-style:none;
-        margin-bottom: 0.5rem;
-        }
+    list-style:none;
+    margin-bottom: 0.5rem;
+}
 .passion{
     background-color: #ffffff;
     height: 15rem;
@@ -137,5 +147,4 @@ a{
 
 h1,h2,h3,h6,a,p,li{
     font-family: "poppins";
-
 }
